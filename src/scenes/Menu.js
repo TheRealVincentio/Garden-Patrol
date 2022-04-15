@@ -14,10 +14,10 @@ preload(){
 create() {
 
     let menuConfig = {
-        fontFamily: 'Courier',
+        fontFamily: 'Gorgia',
         fontSize: '28px',
-        backgroundColor: '#F3B141',
-        color: '#843605',
+        backgroundColor: '#FFF8E7',
+        color: '#000',
         align: 'right',
         padding: {
             top: 5,
@@ -27,9 +27,9 @@ create() {
     }
 
     //show menut text
-    this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, 'ROCKET PATROL', menuConfig).setOrigin(0.5);
-    this.add.text(game.config.width/2, game.config.height/2, 'Use <--> arrows to move & (F) to fire', menuConfig).setOrigin(0.5);
-    menuConfig.backgroundColor = '#00FF00';
+    this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, 'Garden Patrol', menuConfig).setOrigin(0.5);
+    this.add.text(game.config.width/2, game.config.height/2, 'P1 Arrows & Up  P2 A & D & F ', menuConfig).setOrigin(0.5);
+    menuConfig.backgroundColor = '#FFF8E7';
     menuConfig.color = '#000';
     this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press <- for Novice or -> for Expert', menuConfig).setOrigin(0.5);
 

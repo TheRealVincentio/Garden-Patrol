@@ -1,0 +1,3 @@
+Make new sounds
+make the UI a little better
+randomize the explosion sounds
