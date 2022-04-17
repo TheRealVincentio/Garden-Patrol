@@ -11,3 +11,5 @@ let keyF, keyR, keyLEFT, keyRIGHT, keyUP, keyA, keyD;
 // set UI sizes
 let borderUISize = game.config.height / 15;
 let borderPadding = borderUISize / 3;
+
+let explosions = ['sfx_explosion1','sfx_explosion2','sfx_explosion3','sfx_explosion4'];
